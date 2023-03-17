@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="pt-br">
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Página de cadastro do site Cozinha da Ana.">
+  <meta name="author" content="Felipe Freaza Fidalgo">
+  <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+  <title>Cozinha da Ana - Cadastro</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
+
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+
+
+
+  <style>
+    /* Style para imagens placeholder */
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    /* Estilos de corpo */
+    body {
+      margin: 0;
+      background-color: #f9ead6;
+      font-family: 'Liberation Serif', serif;
+    }
+
+    /* Estilos para imagens placeholder grandes */
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    /* Estilos para formulário de contato */
+    .contact-form input {
+      width: 100%;
+      padding: 8px 0;
+      margin: 8px 0;
+    }
+
+    /* Estilos para entrada de texto no formulário */
+    .contact-form input[type=text] {
+      height: 100px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <!-- Cabeçalho -->
+      <nav class="cabecalho">
+        <img src="imagens/logo-m.jpg" alt="Logotipo do Cozinha da Ana" style="width: 50px; height: 50px; margin-right: 10px;">
+        <a href="home.html">Página inicial</a>
+        <a href="receitas.html">Receitas</a>
+        <a href="cadastros.html">Cadastros</a>
+      </nav>
+    </div>
+    <div>
+      <div class="container">
+        <a href="home.html" class="navbar-brand d-flex align-items-center">
+          
+        </a>
+
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <main>
+      <!-- Formulário de cadastro -->
+      <div class="py-5 text-center">
+        <img src="imagens/logo-m.jpg" alt="Logotipo do Cozinha da Ana">
+        <h2><strong>Faça seu Cadastro</strong></h2>
+        <p class="lead"></p>
+      </div>
+      </header>
+      <form class="contact-form" action="https://formsubmit.co/felipefffidalgo@yahoo.com" method="POST">
+        <div>
+          <label for="nome">Nome completo</label>
+          <input type="nome" placeholder="digite seu nome aqui" id="nome" name="nome" required>
+        </div>
+        <div>
+          <label for="email">E-mail</label>
+          <input type="email" placeholder="Digite um email valido" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="CEP">CEP</label>
+          <input type="CEP" placeholder="Digite seu Cep apenas números" id="CEP" name="CEP" required>
+        </div>
+        <div>
+          <label for="RUA">Rua</label>
+          <input type="RUA" placeholder="Coloque o seu endereço" id="RUA" name="RUA" required>
+        </div>
+        <div class="numero">
+          <label for="Numero">Nº</label>
+          <input type="Numero" placeholder="Digite o numero da residência" id="Numero" name="Numero" required>
+          <label for="Complemento">Complemento</label>
+          <input type="Complemento" placeholder="Dígite o bairro" id="Complemento" name="Complemento" required>
+        </div>
+        <div class="city">
+          <label for="Cidade">Cidade</label>
+          <input type="Cidade" placeholder="Digite o nome da cidade sem abreviações" id="Cidade" name="Cidade" required>
+          <label for="Estado">UF</label>
+          <input type="Estado" placeholder="Sigla" id="Estado" name="Estado" required>
+        </div>
+      </br>
+        <button id="botao" type="submit" class="btn btn-success">Cadastrar</button>
+        <input type="hidden" name="_next" value="">
+        <input type="hidden" name="_subject" value="New submission!">
+      </form>
+      
+      <script src="../assets/dist/js/bootstrap.bundle.min.html"></script>
+  </div>
+  <footer class="rodape">
+    <p>&copy; Copyright 2022-2023 Cozinha da Ana, todos os direitos reservados. Proibida a reprodução sem autorização.  </p>
+  </footer>
+</body>
+</html>
